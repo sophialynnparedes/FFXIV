@@ -1,5 +1,5 @@
 import {Route, Switch, Router } from "wouter";
-import Hoe from "../pages/Home";
+import Home from "../pages/Home";
 
 export default function PageRouter(){
     return(

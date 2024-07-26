@@ -1,7 +1,7 @@
-import PageRouter from "./components/PageRouter"
+import PageRouter from "./components/PageRouter";
 
-function App() {
-  <PageRouter/>
+export default function App() {
+  return <PageRouter />;
 }
 
-export default App
+
