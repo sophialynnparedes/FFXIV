@@ -6,20 +6,12 @@
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-.spaced{
-    justify-content: space-around;
-}
-
-.left{
-    justify-content: start;
-}
-
-.center{
     justify-content: center;
 }
 
-.right{
-    justify-content: end;
+.col{
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
 }
